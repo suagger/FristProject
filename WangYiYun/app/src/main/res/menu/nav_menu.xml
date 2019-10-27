@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_piao"
+            android:icon="@drawable/buy"
+            android:title="演出" />
+        <item
+            android:id="@+id/nav_shangcheng"
+            android:icon="@drawable/gou"
+            android:title="商城"/>
+        <item
+            android:id="@+id/nav_fujinren"
+            android:icon="@drawable/location"
+            android:title="附近人"/>
+        <item
+            android:id="@+id/nav_youxi"
+            android:icon="@drawable/game"
+            android:title="游戏推荐"/>
+        <item
+            android:id="@+id/nav_cailing"
+            android:icon="@drawable/lingdang"
+            android:title="口袋彩铃"/>
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_作者"
+            android:icon="@drawable/zuozhe"
+            android:title="创造者中心"/>
+    </group>
+
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_dingdan"
+            android:icon="@drawable/dingdan"
+            android:title="我的订单"/>
+
+        <item
+            android:id="@+id/nav_bofang"
+            android:icon="@drawable/dingshi"
+            android:title="定时停止播放"/>
+        <item
+            android:id="@+id/nav_nav_sao"
+            android:icon="@drawable/sao"
+            android:title="扫一扫"/>
+        <item
+            android:id="@+id/nav_maozhong"
+            android:icon="@drawable/alarm"
+            android:title="音乐闹钟"/>
+        <item
+            android:id="@+id/nav_yunpan"
+            android:icon="@drawable/yun"
+            android:title="音乐云盘"/>
+        <item
+            android:id="@+id/nav_liuliang"
+            android:icon="@drawable/liu"
+            android:title="在线听歌免流量"/>
+        <item
+            android:id="@+id/nav_quan"
+            android:icon="@drawable/quan"
+            android:title="优惠券"/>
+        <item
+            android:id="@+id/nav_moshi"
+            android:icon="@drawable/anquan"
+            android:title="青少年模式"/>
+    </group>
+</menu>

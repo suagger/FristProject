@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#264D4D4D"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/show_back"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:background="@drawable/back"
+            style="?android:attr/borderlessButtonStyle"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:text="最近播放"
+            android:gravity="center_vertical|left"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            />
+
+        <TextView
+            android:id="@+id/show_clear"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"
+            android:text="清空"
+            android:gravity="center_vertical|right"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/show_recently"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#264D4D4D"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
